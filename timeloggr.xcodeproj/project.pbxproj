@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90B1BF816BFAAAF00F6AA40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B1BF716BFAAAF00F6AA40 /* Cocoa.framework */; };
+		D90B1C0216BFAAAF00F6AA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C0016BFAAAF00F6AA40 /* InfoPlist.strings */; };
+		D90B1C0416BFAAAF00F6AA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B1C0316BFAAAF00F6AA40 /* main.m */; };
+		D90B1C0816BFAAAF00F6AA40 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C0616BFAAAF00F6AA40 /* Credits.rtf */; };
+		D90B1C0B16BFAAAF00F6AA40 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B1C0A16BFAAAF00F6AA40 /* TLAppDelegate.m */; };
+		D90B1C0E16BFAAB000F6AA40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C0C16BFAAB000F6AA40 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D90B1BF416BFAAAF00F6AA40 /* timeloggr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeloggr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90B1BF716BFAAAF00F6AA40 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D90B1BFA16BFAAAF00F6AA40 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D90B1BFB16BFAAAF00F6AA40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D90B1BFC16BFAAAF00F6AA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D90B1BFF16BFAAAF00F6AA40 /* timeloggr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timeloggr-Info.plist"; sourceTree = "<group>"; };
+		D90B1C0116BFAAAF00F6AA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D90B1C0316BFAAAF00F6AA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D90B1C0516BFAAAF00F6AA40 /* timeloggr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "timeloggr-Prefix.pch"; sourceTree = "<group>"; };
+		D90B1C0716BFAAAF00F6AA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D90B1C0916BFAAAF00F6AA40 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		D90B1C0A16BFAAAF00F6AA40 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		D90B1C0D16BFAAB000F6AA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90B1BF116BFAAAF00F6AA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90B1BF816BFAAAF00F6AA40 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90B1BEB16BFAAAF00F6AA40 = {
+			isa = PBXGroup;
+			children = (
+				D90B1BFD16BFAAAF00F6AA40 /* timeloggr */,
+				D90B1BF616BFAAAF00F6AA40 /* Frameworks */,
+				D90B1BF516BFAAAF00F6AA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90B1BF516BFAAAF00F6AA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90B1BF416BFAAAF00F6AA40 /* timeloggr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90B1BF616BFAAAF00F6AA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90B1BF716BFAAAF00F6AA40 /* Cocoa.framework */,
+				D90B1BF916BFAAAF00F6AA40 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90B1BF916BFAAAF00F6AA40 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90B1BFA16BFAAAF00F6AA40 /* AppKit.framework */,
+				D90B1BFB16BFAAAF00F6AA40 /* CoreData.framework */,
+				D90B1BFC16BFAAAF00F6AA40 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D90B1BFD16BFAAAF00F6AA40 /* timeloggr */ = {
+			isa = PBXGroup;
+			children = (
+				D90B1C0916BFAAAF00F6AA40 /* TLAppDelegate.h */,
+				D90B1C0A16BFAAAF00F6AA40 /* TLAppDelegate.m */,
+				D90B1C0C16BFAAB000F6AA40 /* MainMenu.xib */,
+				D90B1BFE16BFAAAF00F6AA40 /* Supporting Files */,
+			);
+			path = timeloggr;
+			sourceTree = "<group>";
+		};
+		D90B1BFE16BFAAAF00F6AA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D90B1BFF16BFAAAF00F6AA40 /* timeloggr-Info.plist */,
+				D90B1C0016BFAAAF00F6AA40 /* InfoPlist.strings */,
+				D90B1C0316BFAAAF00F6AA40 /* main.m */,
+				D90B1C0516BFAAAF00F6AA40 /* timeloggr-Prefix.pch */,
+				D90B1C0616BFAAAF00F6AA40 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90B1BF316BFAAAF00F6AA40 /* timeloggr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90B1C1116BFAAB000F6AA40 /* Build configuration list for PBXNativeTarget "timeloggr" */;
+			buildPhases = (
+				D90B1BF016BFAAAF00F6AA40 /* Sources */,
+				D90B1BF116BFAAAF00F6AA40 /* Frameworks */,
+				D90B1BF216BFAAAF00F6AA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timeloggr;
+			productName = timeloggr;
+			productReference = D90B1BF416BFAAAF00F6AA40 /* timeloggr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90B1BEC16BFAAAF00F6AA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nick Pack";
+			};
+			buildConfigurationList = D90B1BEF16BFAAAF00F6AA40 /* Build configuration list for PBXProject "timeloggr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D90B1BEB16BFAAAF00F6AA40;
+			productRefGroup = D90B1BF516BFAAAF00F6AA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90B1BF316BFAAAF00F6AA40 /* timeloggr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90B1BF216BFAAAF00F6AA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90B1C0216BFAAAF00F6AA40 /* InfoPlist.strings in Resources */,
+				D90B1C0816BFAAAF00F6AA40 /* Credits.rtf in Resources */,
+				D90B1C0E16BFAAB000F6AA40 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90B1BF016BFAAAF00F6AA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90B1C0416BFAAAF00F6AA40 /* main.m in Sources */,
+				D90B1C0B16BFAAAF00F6AA40 /* TLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D90B1C0016BFAAAF00F6AA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90B1C0116BFAAAF00F6AA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D90B1C0616BFAAAF00F6AA40 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90B1C0716BFAAAF00F6AA40 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D90B1C0C16BFAAB000F6AA40 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90B1C0D16BFAAB000F6AA40 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90B1C0F16BFAAB000F6AA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D90B1C1016BFAAB000F6AA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D90B1C1216BFAAB000F6AA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeloggr/timeloggr-Prefix.pch";
+				INFOPLIST_FILE = "timeloggr/timeloggr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D90B1C1316BFAAB000F6AA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timeloggr/timeloggr-Prefix.pch";
+				INFOPLIST_FILE = "timeloggr/timeloggr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90B1BEF16BFAAAF00F6AA40 /* Build configuration list for PBXProject "timeloggr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90B1C0F16BFAAB000F6AA40 /* Debug */,
+				D90B1C1016BFAAB000F6AA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90B1C1116BFAAB000F6AA40 /* Build configuration list for PBXNativeTarget "timeloggr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90B1C1216BFAAB000F6AA40 /* Debug */,
+				D90B1C1316BFAAB000F6AA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90B1BEC16BFAAAF00F6AA40 /* Project object */;
+}
