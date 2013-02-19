@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1C86570ED194080B18CFB9B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1621DC87069B46CDA4F744F0 /* libPods.a */; };
 		D90B1BF816BFAAAF00F6AA40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B1BF716BFAAAF00F6AA40 /* Cocoa.framework */; };
 		D90B1C0216BFAAAF00F6AA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C0016BFAAAF00F6AA40 /* InfoPlist.strings */; };
 		D90B1C0416BFAAAF00F6AA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B1C0316BFAAAF00F6AA40 /* main.m */; };
 		D90B1C0816BFAAAF00F6AA40 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C0616BFAAAF00F6AA40 /* Credits.rtf */; };
 		D90B1C0B16BFAAAF00F6AA40 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B1C0A16BFAAAF00F6AA40 /* TLAppDelegate.m */; };
 		D90B1C0E16BFAAB000F6AA40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C0C16BFAAB000F6AA40 /* MainMenu.xib */; };
+		D90B1C1D16BFADCF00F6AA40 /* TLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B1C1B16BFADCF00F6AA40 /* TLLoginViewController.m */; };
+		D90B1C1E16BFADCF00F6AA40 /* TLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C1C16BFADCF00F6AA40 /* TLLoginViewController.xib */; };
+		D90B1C2216BFAE3300F6AA40 /* TLProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B1C2016BFAE3300F6AA40 /* TLProjectsViewController.m */; };
+		D90B1C2316BFAE3300F6AA40 /* TLProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90B1C2116BFAE3300F6AA40 /* TLProjectsViewController.xib */; };
+		D90B1C2716BFAF0B00F6AA40 /* TLAssemblaAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D90B1C2616BFAF0B00F6AA40 /* TLAssemblaAPIClient.m */; };
+		D90B1C2916BFB04100F6AA40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B1C2816BFB04100F6AA40 /* SystemConfiguration.framework */; };
+		D940860F16D2C27300D936D6 /* TLTaskEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D940860E16D2C27300D936D6 /* TLTaskEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1621DC87069B46CDA4F744F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E050BEE226A497491438C16 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		D90B1BF416BFAAAF00F6AA40 /* timeloggr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeloggr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90B1BF716BFAAAF00F6AA40 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D90B1BFA16BFAAAF00F6AA40 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +39,17 @@
 		D90B1C0916BFAAAF00F6AA40 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
 		D90B1C0A16BFAAAF00F6AA40 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
 		D90B1C0D16BFAAB000F6AA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D90B1C1A16BFADCF00F6AA40 /* TLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLLoginViewController.h; sourceTree = "<group>"; };
+		D90B1C1B16BFADCF00F6AA40 /* TLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLLoginViewController.m; sourceTree = "<group>"; };
+		D90B1C1C16BFADCF00F6AA40 /* TLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLLoginViewController.xib; sourceTree = "<group>"; };
+		D90B1C1F16BFAE3300F6AA40 /* TLProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLProjectsViewController.h; sourceTree = "<group>"; };
+		D90B1C2016BFAE3300F6AA40 /* TLProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLProjectsViewController.m; sourceTree = "<group>"; };
+		D90B1C2116BFAE3300F6AA40 /* TLProjectsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLProjectsViewController.xib; sourceTree = "<group>"; };
+		D90B1C2516BFAF0B00F6AA40 /* TLAssemblaAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAssemblaAPIClient.h; sourceTree = "<group>"; };
+		D90B1C2616BFAF0B00F6AA40 /* TLAssemblaAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAssemblaAPIClient.m; sourceTree = "<group>"; };
+		D90B1C2816BFB04100F6AA40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D940860D16D2C27300D936D6 /* TLTaskEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTaskEntry.h; sourceTree = "<group>"; };
+		D940860E16D2C27300D936D6 /* TLTaskEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTaskEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90B1C2916BFB04100F6AA40 /* SystemConfiguration.framework in Frameworks */,
 				D90B1BF816BFAAAF00F6AA40 /* Cocoa.framework in Frameworks */,
+				A1C86570ED194080B18CFB9B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +72,7 @@
 				D90B1BFD16BFAAAF00F6AA40 /* timeloggr */,
 				D90B1BF616BFAAAF00F6AA40 /* Frameworks */,
 				D90B1BF516BFAAAF00F6AA40 /* Products */,
+				5E050BEE226A497491438C16 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +89,7 @@
 			children = (
 				D90B1BF716BFAAAF00F6AA40 /* Cocoa.framework */,
 				D90B1BF916BFAAAF00F6AA40 /* Other Frameworks */,
+				1621DC87069B46CDA4F744F0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,6 +97,7 @@
 		D90B1BF916BFAAAF00F6AA40 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D90B1C2816BFB04100F6AA40 /* SystemConfiguration.framework */,
 				D90B1BFA16BFAAAF00F6AA40 /* AppKit.framework */,
 				D90B1BFB16BFAAAF00F6AA40 /* CoreData.framework */,
 				D90B1BFC16BFAAAF00F6AA40 /* Foundation.framework */,
@@ -82,10 +108,14 @@
 		D90B1BFD16BFAAAF00F6AA40 /* timeloggr */ = {
 			isa = PBXGroup;
 			children = (
+				D90B1C1916BFADB200F6AA40 /* Models */,
+				D90B1C1816BFADA800F6AA40 /* Controllers */,
 				D90B1C0916BFAAAF00F6AA40 /* TLAppDelegate.h */,
 				D90B1C0A16BFAAAF00F6AA40 /* TLAppDelegate.m */,
 				D90B1C0C16BFAAB000F6AA40 /* MainMenu.xib */,
 				D90B1BFE16BFAAAF00F6AA40 /* Supporting Files */,
+				D90B1C2516BFAF0B00F6AA40 /* TLAssemblaAPIClient.h */,
+				D90B1C2616BFAF0B00F6AA40 /* TLAssemblaAPIClient.m */,
 			);
 			path = timeloggr;
 			sourceTree = "<group>";
@@ -102,6 +132,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D90B1C1816BFADA800F6AA40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D90B1C1A16BFADCF00F6AA40 /* TLLoginViewController.h */,
+				D90B1C1B16BFADCF00F6AA40 /* TLLoginViewController.m */,
+				D90B1C1C16BFADCF00F6AA40 /* TLLoginViewController.xib */,
+				D90B1C1F16BFAE3300F6AA40 /* TLProjectsViewController.h */,
+				D90B1C2016BFAE3300F6AA40 /* TLProjectsViewController.m */,
+				D90B1C2116BFAE3300F6AA40 /* TLProjectsViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D90B1C1916BFADB200F6AA40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D940860D16D2C27300D936D6 /* TLTaskEntry.h */,
+				D940860E16D2C27300D936D6 /* TLTaskEntry.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +164,7 @@
 				D90B1BF016BFAAAF00F6AA40 /* Sources */,
 				D90B1BF116BFAAAF00F6AA40 /* Frameworks */,
 				D90B1BF216BFAAAF00F6AA40 /* Resources */,
+				0DF1941E5FE945BCBBF544DC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,10 +210,29 @@
 				D90B1C0216BFAAAF00F6AA40 /* InfoPlist.strings in Resources */,
 				D90B1C0816BFAAAF00F6AA40 /* Credits.rtf in Resources */,
 				D90B1C0E16BFAAB000F6AA40 /* MainMenu.xib in Resources */,
+				D90B1C1E16BFADCF00F6AA40 /* TLLoginViewController.xib in Resources */,
+				D90B1C2316BFAE3300F6AA40 /* TLProjectsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF1941E5FE945BCBBF544DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D90B1BF016BFAAAF00F6AA40 /* Sources */ = {
@@ -169,6 +241,10 @@
 			files = (
 				D90B1C0416BFAAAF00F6AA40 /* main.m in Sources */,
 				D90B1C0B16BFAAAF00F6AA40 /* TLAppDelegate.m in Sources */,
+				D90B1C1D16BFADCF00F6AA40 /* TLLoginViewController.m in Sources */,
+				D90B1C2216BFAE3300F6AA40 /* TLProjectsViewController.m in Sources */,
+				D90B1C2716BFAF0B00F6AA40 /* TLAssemblaAPIClient.m in Sources */,
+				D940860F16D2C27300D936D6 /* TLTaskEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,11 +339,13 @@
 		};
 		D90B1C1216BFAAB000F6AA40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E050BEE226A497491438C16 /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "timeloggr/timeloggr-Prefix.pch";
 				INFOPLIST_FILE = "timeloggr/timeloggr-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,11 +353,13 @@
 		};
 		D90B1C1316BFAAB000F6AA40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E050BEE226A497491438C16 /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "timeloggr/timeloggr-Prefix.pch";
 				INFOPLIST_FILE = "timeloggr/timeloggr-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,6 +384,7 @@
 				D90B1C1316BFAAB000F6AA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
